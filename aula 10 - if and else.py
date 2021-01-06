@@ -1,0 +1,1 @@
+'''Não tem muito misterio só lembre de botar dois pontos no final do if e do else'''

@@ -1,0 +1,11 @@
+nome = str(input('Digite seu nome completo:')).strip()
+mini = nome.lower()
+max = nome.upper()
+se = nome.strip()
+num = nome.split()
+print('Seu nome é {}'.format(nome))
+print('em minusculo: {}'.format(mini))
+print('EM MAIUSCULO:{}'.format(max))
+print('Seu nome tem {} letras' .format(len(se)-nome.count(' ')))
+print('Seu primiero nome tem {} letras'.format(len(num[0])))          #poderia usar o comando find como abaixo
+print('Seu primeiro nome tem {} letras'.format(nome.find(' ')))
